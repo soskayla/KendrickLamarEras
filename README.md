@@ -1,2 +1,2 @@
 # KendrickLamarEras
-Designed and built a responsive webpage using HTML CSS and Javascript to bring life to my favorite artist Kendrick Lamar. My process is documented here to show how I designed these sites and used user feedback to improve my webpage.
+Designed and built a responsive webpage using HTML CSS and Javascript to bring life to my favorite artist Kendrick Lamar. My process is documented here to show how I designed these sites and used user feedback to improve my webpage. In this project, we chose a topic or person that we were fans of. For this topic, I chose Kendrick Lamamr and took a simplistic approach to designing a website based on his music eras.

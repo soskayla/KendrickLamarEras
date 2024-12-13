@@ -1,0 +1,164 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  margin: 0;
+  background-color: #f9f6ee;
+}
+
+.col1 {
+  width: 40%;
+  height: 100%;
+  display: block;
+}
+
+.col2 {
+  width: 60%;
+  height: 100%;
+  display: block;
+}
+
+.top-left {
+  width: 100%;
+  height: 60%;
+}
+
+.bottom-left {
+  width: 100%;
+  height: 40%;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+
+.reset-button {
+  width: 25%;
+  height: 25%;
+}
+
+.ch1,
+.ch2,
+.ch3,
+.ch4 {
+  width: 50%;
+  height: 100%;
+}
+
+.th1,
+.th2,
+.th3 {
+  width: calc(100% / 3);
+  height: 100%;
+}
+
+.album-container {
+  text-align: center;
+}
+
+.top-left-img {
+  margin: auto;
+  max-width: 80%;
+  height: 80%;
+}
+
+.pause-button-img {
+  margin: auto;
+  max-width: 10%;
+  height: 10%;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.album:hover {
+  filter: brightness(0.7);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.album:active {
+  filter: brightness(0);
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+.filter:hover {
+  filter: brightness(0.7);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.button:active {
+  transform: scale(0.95, 0.95);
+}
+
+.yes-cursor {
+  cursor: pointer;
+}
+
+.red {
+  background-color: #ff70a6;
+}
+
+.orange {
+  background-color: #ff9770;
+}
+
+.blue {
+  background-color: #70d6ff;
+}
+
+.yellow {
+  background-color: #e9ff70;
+}
+
+.green {
+  background-color: #c1fba4;
+}
+
+.pink {
+  background-color: #fcc0d0;
+}
+
+.album-name {
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    display: block;
+  }
+
+  .col1 {
+    width: 100%;
+    height: 60%;
+  }
+
+  .col2 {
+    width: 100%;
+    height: 40%;
+  }
+
+  .ch1,
+  .ch2,
+  .row1 {
+    height: 100%;
+  }
+
+  .ch3,
+  .ch4,
+  .row2 {
+    display: none;
+  }
+  
